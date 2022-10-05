@@ -1,54 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Roboto+Mono:wght@500&display=swap');
+
 .header {
-	
-	align: center;
-	margin-top: 0px;
-	display: block;
-	background-color:#2c5282;
-	color:#edf2f7;
-	text-align: center;
+
+    align: center;
+    margin-top: 0px;
+    display: block;
+    background-color: #2c5282;
+    color: #edf2f7;
+    text-align: center;
     font-family: 'Roboto Mono', monospace;
-	border: 2px solid #2c5282;
+    border: 2px solid #2c5282;
 }
-body{
+
+body {
     font-family: 'Roboto Mono', monospace;
-    margin:0px;
+    margin: 0px;
     color: #a0aec0;
 }
-#btn-translate{
+
+#btn-translate {
     background-color: #2c5282;
-    color:#edf2f7;
+    color: #edf2f7;
     text-align: center;
     display: block;
     align-items: center;
-        height: 10vh;
-        padding:1rem 1rem;
-        font-size: large;
-        
-        
-    }
+    height: 10vh;
+    padding: 1rem 1rem;
+    font-size: large;
+    margin:auto;
+}
+#text-input {
+	height: 10vh;
+	width: 80%;
+	margin: 1rem;
+	padding: 1rem;
+	display: block;
+}
 
-
-.footer{
+.footer {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    height:6.5rem;
-    color:#edf2f7;
-    background-color:#2c5282;
+    height: 6.5rem;
+    color: #edf2f7;
+    background-color: #2c5282;
     text-align: center;
     font-size: x-large;
     font-family: 'Roboto Mono', monospace;
     font-weight: bold;
 }
-.footer-content{
+
+.footer-content {
     position: absolute;
     text-align: center;
-    color:#edf2f7;
+    color: #edf2f7;
     font-family: 'Roboto Mono', monospace;
     bottom: 0;
     left: 0;
     right: 0;
-    height:50px;
+    height: 50px;
 }
